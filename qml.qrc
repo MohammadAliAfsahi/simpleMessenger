@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>SignupLogin.qml</file>
+        <file>SignupLoginForm.ui.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>LoginPage.qml</file>
+        <file>LoginPageForm.ui.qml</file>
+    </qresource>
+</RCC>

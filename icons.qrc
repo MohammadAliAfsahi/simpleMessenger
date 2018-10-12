@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>traffic-sign.png</file>
+        <file>login.png</file>
+        <file>mattermost.png</file>
+        <file>side-up.png</file>
+        <file>group.png</file>
+        <file>megaphone.png</file>
+        <file>user.png</file>
+        <file>logout.png</file>
+        <file>network.png</file>
+        <file>user (2).png</file>
+    </qresource>
+</RCC>

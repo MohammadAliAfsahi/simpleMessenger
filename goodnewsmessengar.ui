@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GoodNewsMessengar</class>
+ <widget class="QMainWindow" name="GoodNewsMessengar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>838</width>
+    <height>553</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border: 5px solid #ccc ;
+border-radius:8px;
+background:white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>651</width>
+      <height>401</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnLogout">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>10</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Logout</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCreateGroup">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>10</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>CreateGroup</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCreateChannel">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>10</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>CreateChannel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnGetIntouches">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>10</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Get User List</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnGetGroupList">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>10</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Get Group List</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnGetChannelList">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Get Channel List</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnGetUserChats">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Get User Chats</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnGetChannelChats">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>50</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Get Channel Chats</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnGetGroupChats">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>10</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Get Group Chats</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnJoinGroup">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Join Group</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnJoinChannel">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>130</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Join Channel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnsendmessageuser">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>170</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>sendmessageuser</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnsendmessagegroup">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>210</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>sendmessagegroup</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnsendmessagechannel">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>250</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>sendmessagechannel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>838</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCreate">
+    <property name="title">
+     <string>Create</string>
+    </property>
+    <addaction name="actionGroup"/>
+    <addaction name="actionChannel"/>
+   </widget>
+   <widget class="QMenu" name="menuGet">
+    <property name="title">
+     <string>Get</string>
+    </property>
+    <addaction name="actionChats"/>
+    <addaction name="actionChannels_Group"/>
+    <addaction name="actionConversations"/>
+    <addaction name="actionChannels_Group_messages"/>
+   </widget>
+   <widget class="QMenu" name="menuJoin">
+    <property name="title">
+     <string>Join</string>
+    </property>
+    <addaction name="actionChannel_2"/>
+    <addaction name="actionGroup_2"/>
+   </widget>
+   <widget class="QMenu" name="menuSend">
+    <property name="title">
+     <string>Send</string>
+    </property>
+    <addaction name="actionMessege"/>
+    <addaction name="actionIn_group"/>
+    <addaction name="actionIn_Channel"/>
+   </widget>
+   <widget class="QMenu" name="menuLogout">
+    <property name="title">
+     <string>Logout</string>
+    </property>
+   </widget>
+   <addaction name="menuCreate"/>
+   <addaction name="menuGet"/>
+   <addaction name="menuJoin"/>
+   <addaction name="menuSend"/>
+   <addaction name="menuLogout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionGroup">
+   <property name="text">
+    <string>Create Group</string>
+   </property>
+  </action>
+  <action name="actionChannel">
+   <property name="text">
+    <string>Channel</string>
+   </property>
+  </action>
+  <action name="actionChats">
+   <property name="text">
+    <string>Conversations</string>
+   </property>
+  </action>
+  <action name="actionChannels_Group">
+   <property name="text">
+    <string>Channels/Group</string>
+   </property>
+  </action>
+  <action name="actionConversations">
+   <property name="text">
+    <string>Conversations</string>
+   </property>
+  </action>
+  <action name="actionChannels_Group_messages">
+   <property name="text">
+    <string>Channels/Group messages</string>
+   </property>
+  </action>
+  <action name="actionChannel_2">
+   <property name="text">
+    <string>Channel</string>
+   </property>
+  </action>
+  <action name="actionGroup_2">
+   <property name="text">
+    <string>Group</string>
+   </property>
+  </action>
+  <action name="actionMessege">
+   <property name="text">
+    <string>Messege To User</string>
+   </property>
+  </action>
+  <action name="actionIn_group">
+   <property name="text">
+    <string>In group</string>
+   </property>
+  </action>
+  <action name="actionIn_Channel">
+   <property name="text">
+    <string>In Channel</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
